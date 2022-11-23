@@ -116,7 +116,7 @@ const choisirLettre = (lettre) => {
 	}
 };
 	const finJeux = () => {
-		document.querySelector('body').style.backgroundImage = 'url(../img/game1.jpg)';
+		document.querySelector('body').style.backgroundImage = 'url(../img/fond.jpg)';
 		elements.choix.innerHTML = `<h1>PENDU</h1>`;
 	};
 	const winGame = () => {
