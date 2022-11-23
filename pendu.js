@@ -26,7 +26,7 @@ let mot = '';
 let motMapping = [];
 let choixMapping = [];
 let scoreCount = 0;
-let scoreMax = 8;
+let scoreMax = 9;
 
 const init = () => {
 	console.log('init');
@@ -116,7 +116,7 @@ const choisirLettre = (lettre) => {
 	}
 };
 	const finJeux = () => {
-		document.querySelector('body').style.backgroundImage = 'url(../img/fond.jpg)';
+		/*document.querySelector('body').style.backgroundImage = 'url(../img/fond.jpg)';*/
 		elements.choix.innerHTML = `<h1>PENDU</h1>`;
 	};
 	const winGame = () => {

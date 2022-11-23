@@ -35,13 +35,15 @@ container{
    
 }
 
-header{
+/*header{
     display: flex;
     
-}
+}*/
 h1{
     background-color: rgb(211, 129, 129);
     text-align: center;
+    height: 50px;
+    position: relative;
 }
 #score {
     text-align: center;
