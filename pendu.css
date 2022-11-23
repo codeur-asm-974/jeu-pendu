@@ -1,0 +1,52 @@
+#choix  li{
+    display: inline-block;
+    margin: 10px;
+}
+#choix{
+    text-align: center;
+   /* background-color: rgb(235, 172, 128);*/
+    height: 150px;
+    width: 350px;
+    margin: auto;
+}
+
+#reponse li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+#reponse{
+    text-align: center;
+}
+
+.disabled{
+    opacity: .3;
+}
+body{
+    margin: 0;
+    width: 400;
+    height:400;
+    background-color: rgb(247, 233, 233);
+    
+}
+/*container{
+    display: flex;
+    width: 40vw
+   
+}*/
+
+header{
+    display: flex;
+    
+}
+h1{
+    background-color: rgb(211, 129, 129);
+    text-align: center;
+}
+#score {
+    text-align: center;
+    width: auto;
+ height: 500px;
+ 
+}
+
